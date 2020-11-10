@@ -4,6 +4,8 @@
 /*Importing all components file*/
 @import url("components/container.css");
 @import url("components/button-ordernow.css");
+@import url("components/button-continueshopping.css");
+@import url("components/button-cart.css");
 @import url("components/banner.css");
 @import url("components/logo.css");
 @import url("components/customer-account.css");
@@ -11,6 +13,8 @@
 @import url("components/card-homepage.css");
 @import url("components/card-lastpage.css");
 @import url("components/card-menuboxes.css");
+@import url("components/card-boxdescription.css");
+
 
 /*General style rules for fonts and colours*/
 body{
