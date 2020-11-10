@@ -1,0 +1,11 @@
+/*General rules for the avatar logo*/
+.logo{
+  width: 180px;
+  height: auto;
+  border-radius:500px;
+  opacity:1;
+  background-image:url(images/Logo.png);
+  background-repeat:round;
+  top: 10px;
+  margin-left: 40px;
+}
