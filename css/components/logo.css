@@ -6,6 +6,5 @@
   opacity:1;
   background-image:url(images/Logo.png);
   background-repeat:round;
-  top: 10px;
-  margin-left: 40px;
+  padding: 0px;
 }
