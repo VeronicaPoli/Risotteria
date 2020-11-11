@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;400;500&display=swap");
 
 /*Importing all components file*/
-@import url("components/container.css");
+
 @import url("components/button-ordernow.css");
 @import url("components/button-continueshopping.css");
 @import url("components/button-cart.css");
@@ -14,7 +14,7 @@
 @import url("components/card-lastpage.css");
 @import url("components/card-menuboxes.css");
 @import url("components/card-boxdescription.css");
-
+@import url("components/container.css");
 
 /*General style rules for fonts and colours*/
 body{
@@ -29,10 +29,8 @@ h1{
   font-family: 'Poppins', sans-serif;
   font-weight: lighter;
   text-align: left;
-  font-size: 35px;
-  line-height: 35px;
-  margin-left: 80px;
-  margin-top: 40px;
+  font-size: 30px;
+  padding: 0px;
 }
 h2,h3{
   font-family: 'Poppins', sans-serif;
@@ -41,17 +39,17 @@ h2,h3{
   line-height: 35px;
 }
 h2{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 h3{
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
 }
 
 p{
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
 
 }
 
@@ -61,14 +59,17 @@ a{
   color: white;
   text-decoration: none;
   font-size: 30px;
-  margin-left: 50px;
+}
+
+/*General rules for the banner*/
+.banner h1{
+  font-size: 30px;
   text-align: left;
 }
 
 /*General rules for the header*/
 .header h2 {
-  font-size: 30px;
-  margin-left: 175px;
+  font-size: 25px;
 }
 
 /*Start rules for the icon-topright*/
@@ -118,20 +119,19 @@ a{
 /*General rules for cards*/
 .cards{
   display: flex;
-  flex-flow: row nowrap;
-  align-items: stretch;
   justify-content: space-between;
-  margin-top: 40px;
-  padding: 10px 130px;
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
 /*Start rules for the social media icons*/
 .icon-social{
   text-align: center;
-  padding:0px;
+  padding: 0px;
 }
 .icon-social li{
   display: inline;
+  padding: 10px;
 }
 .icon-social i{
   font-size: 45px;
@@ -141,3 +141,8 @@ a{
   color: grey;
 }
 
+div#hormenu {
+  width: 100%;
+  float: left;
+  background: black;
+}
