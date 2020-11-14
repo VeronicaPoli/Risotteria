@@ -141,6 +141,12 @@ a{
   color: grey;
 }
 
+/*Specific rules for Read More*/
+.readmore{
+  font-size: 15px
+}
+
+/*General rules for the div #hornmenu*/
 div#hormenu {
   width: 100%;
   float: left;
