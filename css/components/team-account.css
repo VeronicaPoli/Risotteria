@@ -1,0 +1,9 @@
+/*General rules for the avatar team-account*/
+.team-account{
+  width: 80px;
+  height: auto;
+  padding: 10px;
+  border-radius:500px;
+  opacity:1;
+  background-repeat:round;
+}
