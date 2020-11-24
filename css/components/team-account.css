@@ -7,3 +7,7 @@
   opacity:1;
   background-repeat:round;
 }
+
+.team-account:hover{
+  border: 2px solid #5a4b31;
+}
